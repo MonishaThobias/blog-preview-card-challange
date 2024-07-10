@@ -48,9 +48,11 @@ body{
 .inner-container .illustration-article{
     border-radius: 15px;
     width: -webkit-fill-available;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
     }
     .inner-container  .illustration-article:hover{
-        transform: scale(1);
+        opacity: 0.9;
     }
     button,.button{
         background-color: hsl(47, 88%, 63%);
